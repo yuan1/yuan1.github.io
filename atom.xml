@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://javayuan.xyz/"/>
-  <updated>2020-07-08T08:12:45.517Z</updated>
+  <updated>2020-08-06T09:47:06.736Z</updated>
   <id>http://javayuan.xyz/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>小鹤双拼+壁纸</title>
+    <link href="http://javayuan.xyz/2020/08/06/%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC-%E5%A3%81%E7%BA%B8/"/>
+    <id>http://javayuan.xyz/2020/08/06/%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC-%E5%A3%81%E7%BA%B8/</id>
+    <published>2020-08-06T09:47:06.000Z</published>
+    <updated>2020-08-06T09:47:06.736Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;小鹤双拼：&lt;/p&gt;
+&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Other" scheme="http://javayuan.xyz/categories/Other/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>CentOS 7 Yum离线下载安装软件包</title>
@@ -591,37 +617,6 @@
       <category term="Android" scheme="http://javayuan.xyz/tags/Android/"/>
     
       <category term="SDK" scheme="http://javayuan.xyz/tags/SDK/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>AI分享网站-自己动手做聊天机器人</title>
-    <link href="http://javayuan.xyz/2018/07/26/AI%E5%88%86%E4%BA%AB%E7%BD%91%E7%AB%99-%E8%87%AA%E5%B7%B1%E5%8A%A8%E6%89%8B%E5%81%9A%E8%81%8A%E5%A4%A9%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
-    <id>http://javayuan.xyz/2018/07/26/AI%E5%88%86%E4%BA%AB%E7%BD%91%E7%AB%99-%E8%87%AA%E5%B7%B1%E5%8A%A8%E6%89%8B%E5%81%9A%E8%81%8A%E5%A4%A9%E6%9C%BA%E5%99%A8%E4%BA%BA/</id>
-    <published>2018-07-26T06:29:13.000Z</published>
-    <updated>2020-07-08T08:12:45.517Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;人工智能一直以来是人类的梦想，造一台可以为你做一切事情并且有情感的机器人，像哆啦A梦一样，现在这已经不是一个梦了：iPhone里会说话的siri、会下棋的阿法狗、小度机器人、大白……，他们都能够具有智能，和人类交互，帮人类解决问题，这听起来非常神奇，实际上我们自己也可以做一
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Link" scheme="http://javayuan.xyz/categories/Link/"/>
-    
-    
-      <category term="Link" scheme="http://javayuan.xyz/tags/Link/"/>
-    
-      <category term="AI" scheme="http://javayuan.xyz/tags/AI/"/>
-    
-      <category term="Robot" scheme="http://javayuan.xyz/tags/Robot/"/>
     
   </entry>
   
