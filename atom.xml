@@ -5,9 +5,9 @@
   <subtitle>李明元的博客</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://javayuan.xyz/"/>
+  <link href="http://yoursite.com/"/>
   <updated>2020-09-27T04:58:20.093Z</updated>
-  <id>http://javayuan.xyz/</id>
+  <id>http://yoursite.com/</id>
   
   <author>
     <name>大明哥</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>微信web页面返回刷新</title>
-    <link href="http://javayuan.xyz/2020/09/27/%E5%BE%AE%E4%BF%A1web%E9%A1%B5%E9%9D%A2%E8%BF%94%E5%9B%9E%E5%88%B7%E6%96%B0/"/>
-    <id>http://javayuan.xyz/2020/09/27/%E5%BE%AE%E4%BF%A1web%E9%A1%B5%E9%9D%A2%E8%BF%94%E5%9B%9E%E5%88%B7%E6%96%B0/</id>
+    <link href="http://yoursite.com/2020/09/27/%E5%BE%AE%E4%BF%A1web%E9%A1%B5%E9%9D%A2%E8%BF%94%E5%9B%9E%E5%88%B7%E6%96%B0/"/>
+    <id>http://yoursite.com/2020/09/27/%E5%BE%AE%E4%BF%A1web%E9%A1%B5%E9%9D%A2%E8%BF%94%E5%9B%9E%E5%88%B7%E6%96%B0/</id>
     <published>2020-09-27T04:58:20.000Z</published>
     <updated>2020-09-27T04:58:20.093Z</updated>
     
@@ -38,19 +38,19 @@
     </summary>
     
     
-      <category term="Html" scheme="http://javayuan.xyz/categories/Html/"/>
+      <category term="Html" scheme="http://yoursite.com/categories/Html/"/>
     
     
-      <category term="Html" scheme="http://javayuan.xyz/tags/Html/"/>
+      <category term="Html" scheme="http://yoursite.com/tags/Html/"/>
     
-      <category term="微信" scheme="http://javayuan.xyz/tags/%E5%BE%AE%E4%BF%A1/"/>
+      <category term="微信" scheme="http://yoursite.com/tags/%E5%BE%AE%E4%BF%A1/"/>
     
   </entry>
   
   <entry>
     <title>小鹤双拼+壁纸</title>
-    <link href="http://javayuan.xyz/2020/08/06/%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC-%E5%A3%81%E7%BA%B8/"/>
-    <id>http://javayuan.xyz/2020/08/06/%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC-%E5%A3%81%E7%BA%B8/</id>
+    <link href="http://yoursite.com/2020/08/06/%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC-%E5%A3%81%E7%BA%B8/"/>
+    <id>http://yoursite.com/2020/08/06/%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC-%E5%A3%81%E7%BA%B8/</id>
     <published>2020-08-06T09:47:06.000Z</published>
     <updated>2020-08-06T09:47:06.736Z</updated>
     
@@ -68,15 +68,15 @@
     </summary>
     
     
-      <category term="Other" scheme="http://javayuan.xyz/categories/Other/"/>
+      <category term="Other" scheme="http://yoursite.com/categories/Other/"/>
     
     
   </entry>
   
   <entry>
     <title>CentOS 7 Yum离线下载安装软件包</title>
-    <link href="http://javayuan.xyz/2020/01/16/CentOS-7-Yum%E7%A6%BB%E7%BA%BF%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E8%BD%AF%E4%BB%B6%E5%8C%85/"/>
-    <id>http://javayuan.xyz/2020/01/16/CentOS-7-Yum%E7%A6%BB%E7%BA%BF%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E8%BD%AF%E4%BB%B6%E5%8C%85/</id>
+    <link href="http://yoursite.com/2020/01/16/CentOS-7-Yum%E7%A6%BB%E7%BA%BF%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E8%BD%AF%E4%BB%B6%E5%8C%85/"/>
+    <id>http://yoursite.com/2020/01/16/CentOS-7-Yum%E7%A6%BB%E7%BA%BF%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E8%BD%AF%E4%BB%B6%E5%8C%85/</id>
     <published>2020-01-16T06:05:32.000Z</published>
     <updated>2020-07-08T08:12:45.517Z</updated>
     
@@ -93,21 +93,21 @@
     </summary>
     
     
-      <category term="Linux" scheme="http://javayuan.xyz/categories/Linux/"/>
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
     
     
-      <category term="CentOS" scheme="http://javayuan.xyz/tags/CentOS/"/>
+      <category term="CentOS" scheme="http://yoursite.com/tags/CentOS/"/>
     
-      <category term="YUM" scheme="http://javayuan.xyz/tags/YUM/"/>
+      <category term="YUM" scheme="http://yoursite.com/tags/YUM/"/>
     
-      <category term="Install" scheme="http://javayuan.xyz/tags/Install/"/>
+      <category term="Install" scheme="http://yoursite.com/tags/Install/"/>
     
   </entry>
   
   <entry>
     <title>Scripts for turning Proxy server on/off</title>
-    <link href="http://javayuan.xyz/2019/10/25/Scripts-for-turning-Proxy-server-on-off/"/>
-    <id>http://javayuan.xyz/2019/10/25/Scripts-for-turning-Proxy-server-on-off/</id>
+    <link href="http://yoursite.com/2019/10/25/Scripts-for-turning-Proxy-server-on-off/"/>
+    <id>http://yoursite.com/2019/10/25/Scripts-for-turning-Proxy-server-on-off/</id>
     <published>2019-10-25T09:11:41.000Z</published>
     <updated>2020-07-08T08:12:45.522Z</updated>
     
@@ -126,17 +126,17 @@
     </summary>
     
     
-      <category term="Linux" scheme="http://javayuan.xyz/categories/Linux/"/>
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
     
     
-      <category term="Blog" scheme="http://javayuan.xyz/tags/Blog/"/>
+      <category term="Blog" scheme="http://yoursite.com/tags/Blog/"/>
     
   </entry>
   
   <entry>
     <title>ubuntu server 1604 添加中文支持</title>
-    <link href="http://javayuan.xyz/2019/09/25/ubuntu-server-1604-%E6%B7%BB%E5%8A%A0%E4%B8%AD%E6%96%87%E6%94%AF%E6%8C%81/"/>
-    <id>http://javayuan.xyz/2019/09/25/ubuntu-server-1604-%E6%B7%BB%E5%8A%A0%E4%B8%AD%E6%96%87%E6%94%AF%E6%8C%81/</id>
+    <link href="http://yoursite.com/2019/09/25/ubuntu-server-1604-%E6%B7%BB%E5%8A%A0%E4%B8%AD%E6%96%87%E6%94%AF%E6%8C%81/"/>
+    <id>http://yoursite.com/2019/09/25/ubuntu-server-1604-%E6%B7%BB%E5%8A%A0%E4%B8%AD%E6%96%87%E6%94%AF%E6%8C%81/</id>
     <published>2019-09-25T09:47:00.000Z</published>
     <updated>2020-07-08T08:12:45.525Z</updated>
     
@@ -153,17 +153,17 @@
     </summary>
     
     
-      <category term="Linux" scheme="http://javayuan.xyz/categories/Linux/"/>
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
     
     
-      <category term="Blog" scheme="http://javayuan.xyz/tags/Blog/"/>
+      <category term="Blog" scheme="http://yoursite.com/tags/Blog/"/>
     
   </entry>
   
   <entry>
     <title>停止、删除所有的docker容器和镜像</title>
-    <link href="http://javayuan.xyz/2019/08/12/%E5%81%9C%E6%AD%A2%E3%80%81%E5%88%A0%E9%99%A4%E6%89%80%E6%9C%89%E7%9A%84docker%E5%AE%B9%E5%99%A8%E5%92%8C%E9%95%9C%E5%83%8F/"/>
-    <id>http://javayuan.xyz/2019/08/12/%E5%81%9C%E6%AD%A2%E3%80%81%E5%88%A0%E9%99%A4%E6%89%80%E6%9C%89%E7%9A%84docker%E5%AE%B9%E5%99%A8%E5%92%8C%E9%95%9C%E5%83%8F/</id>
+    <link href="http://yoursite.com/2019/08/12/%E5%81%9C%E6%AD%A2%E3%80%81%E5%88%A0%E9%99%A4%E6%89%80%E6%9C%89%E7%9A%84docker%E5%AE%B9%E5%99%A8%E5%92%8C%E9%95%9C%E5%83%8F/"/>
+    <id>http://yoursite.com/2019/08/12/%E5%81%9C%E6%AD%A2%E3%80%81%E5%88%A0%E9%99%A4%E6%89%80%E6%9C%89%E7%9A%84docker%E5%AE%B9%E5%99%A8%E5%92%8C%E9%95%9C%E5%83%8F/</id>
     <published>2019-08-12T08:02:31.000Z</published>
     <updated>2020-07-08T08:12:45.525Z</updated>
     
@@ -180,19 +180,19 @@
     </summary>
     
     
-      <category term="Docker" scheme="http://javayuan.xyz/categories/Docker/"/>
+      <category term="Docker" scheme="http://yoursite.com/categories/Docker/"/>
     
     
-      <category term="Linux" scheme="http://javayuan.xyz/tags/Linux/"/>
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
     
-      <category term="Docker" scheme="http://javayuan.xyz/tags/Docker/"/>
+      <category term="Docker" scheme="http://yoursite.com/tags/Docker/"/>
     
   </entry>
   
   <entry>
     <title>How To Enable ES6 Imports in Node.JS</title>
-    <link href="http://javayuan.xyz/2019/08/12/How-To-Enable-ES6-Imports-in-Node-JS/"/>
-    <id>http://javayuan.xyz/2019/08/12/How-To-Enable-ES6-Imports-in-Node-JS/</id>
+    <link href="http://yoursite.com/2019/08/12/How-To-Enable-ES6-Imports-in-Node-JS/"/>
+    <id>http://yoursite.com/2019/08/12/How-To-Enable-ES6-Imports-in-Node-JS/</id>
     <published>2019-08-12T06:30:09.000Z</published>
     <updated>2020-07-08T08:12:45.518Z</updated>
     
@@ -210,21 +210,21 @@
     </summary>
     
     
-      <category term="Html" scheme="http://javayuan.xyz/categories/Html/"/>
+      <category term="Html" scheme="http://yoursite.com/categories/Html/"/>
     
     
-      <category term="JS" scheme="http://javayuan.xyz/tags/JS/"/>
+      <category term="JS" scheme="http://yoursite.com/tags/JS/"/>
     
-      <category term="ES6" scheme="http://javayuan.xyz/tags/ES6/"/>
+      <category term="ES6" scheme="http://yoursite.com/tags/ES6/"/>
     
-      <category term="NODEJS" scheme="http://javayuan.xyz/tags/NODEJS/"/>
+      <category term="NODEJS" scheme="http://yoursite.com/tags/NODEJS/"/>
     
   </entry>
   
   <entry>
     <title>&#39;sql_mode=only_full_group_by&#39;问题解决</title>
-    <link href="http://javayuan.xyz/2019/06/06/sql-mode-only-full-group-by-%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
-    <id>http://javayuan.xyz/2019/06/06/sql-mode-only-full-group-by-%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/</id>
+    <link href="http://yoursite.com/2019/06/06/sql-mode-only-full-group-by-%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
+    <id>http://yoursite.com/2019/06/06/sql-mode-only-full-group-by-%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/</id>
     <published>2019-06-06T07:34:35.000Z</published>
     <updated>2020-07-08T08:12:45.524Z</updated>
     
@@ -242,19 +242,19 @@
     </summary>
     
     
-      <category term="MySQL" scheme="http://javayuan.xyz/categories/MySQL/"/>
+      <category term="MySQL" scheme="http://yoursite.com/categories/MySQL/"/>
     
     
-      <category term="MySQL" scheme="http://javayuan.xyz/tags/MySQL/"/>
+      <category term="MySQL" scheme="http://yoursite.com/tags/MySQL/"/>
     
-      <category term="Mode" scheme="http://javayuan.xyz/tags/Mode/"/>
+      <category term="Mode" scheme="http://yoursite.com/tags/Mode/"/>
     
   </entry>
   
   <entry>
     <title>Manjaro Update fails: signature is unknown trust</title>
-    <link href="http://javayuan.xyz/2019/06/04/Manjaro-Update-fails-signature-is-unknown-trust/"/>
-    <id>http://javayuan.xyz/2019/06/04/Manjaro-Update-fails-signature-is-unknown-trust/</id>
+    <link href="http://yoursite.com/2019/06/04/Manjaro-Update-fails-signature-is-unknown-trust/"/>
+    <id>http://yoursite.com/2019/06/04/Manjaro-Update-fails-signature-is-unknown-trust/</id>
     <published>2019-06-04T06:37:58.000Z</published>
     <updated>2020-07-08T08:12:45.521Z</updated>
     
@@ -271,19 +271,19 @@
     </summary>
     
     
-      <category term="Linux" scheme="http://javayuan.xyz/categories/Linux/"/>
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
     
     
-      <category term="Linux" scheme="http://javayuan.xyz/tags/Linux/"/>
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
     
-      <category term="Manjaro" scheme="http://javayuan.xyz/tags/Manjaro/"/>
+      <category term="Manjaro" scheme="http://yoursite.com/tags/Manjaro/"/>
     
   </entry>
   
   <entry>
     <title>CentOS7.6升级openssh-7.9p1</title>
-    <link href="http://javayuan.xyz/2019/05/16/CentOS7-6%E5%8D%87%E7%BA%A7openssh-7-9p1/"/>
-    <id>http://javayuan.xyz/2019/05/16/CentOS7-6%E5%8D%87%E7%BA%A7openssh-7-9p1/</id>
+    <link href="http://yoursite.com/2019/05/16/CentOS7-6%E5%8D%87%E7%BA%A7openssh-7-9p1/"/>
+    <id>http://yoursite.com/2019/05/16/CentOS7-6%E5%8D%87%E7%BA%A7openssh-7-9p1/</id>
     <published>2019-05-16T05:37:22.000Z</published>
     <updated>2020-07-08T08:12:45.517Z</updated>
     
@@ -302,21 +302,21 @@
     </summary>
     
     
-      <category term="Linux" scheme="http://javayuan.xyz/categories/Linux/"/>
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
     
     
-      <category term="CentOS" scheme="http://javayuan.xyz/tags/CentOS/"/>
+      <category term="CentOS" scheme="http://yoursite.com/tags/CentOS/"/>
     
-      <category term="Update" scheme="http://javayuan.xyz/tags/Update/"/>
+      <category term="Update" scheme="http://yoursite.com/tags/Update/"/>
     
-      <category term="OpenSSH" scheme="http://javayuan.xyz/tags/OpenSSH/"/>
+      <category term="OpenSSH" scheme="http://yoursite.com/tags/OpenSSH/"/>
     
   </entry>
   
   <entry>
     <title>intellij 关闭自动保存和标志修改文件为星号</title>
-    <link href="http://javayuan.xyz/2019/03/27/intellij-%E5%85%B3%E9%97%AD%E8%87%AA%E5%8A%A8%E4%BF%9D%E5%AD%98%E5%92%8C%E6%A0%87%E5%BF%97%E4%BF%AE%E6%94%B9%E6%96%87%E4%BB%B6%E4%B8%BA%E6%98%9F%E5%8F%B7/"/>
-    <id>http://javayuan.xyz/2019/03/27/intellij-%E5%85%B3%E9%97%AD%E8%87%AA%E5%8A%A8%E4%BF%9D%E5%AD%98%E5%92%8C%E6%A0%87%E5%BF%97%E4%BF%AE%E6%94%B9%E6%96%87%E4%BB%B6%E4%B8%BA%E6%98%9F%E5%8F%B7/</id>
+    <link href="http://yoursite.com/2019/03/27/intellij-%E5%85%B3%E9%97%AD%E8%87%AA%E5%8A%A8%E4%BF%9D%E5%AD%98%E5%92%8C%E6%A0%87%E5%BF%97%E4%BF%AE%E6%94%B9%E6%96%87%E4%BB%B6%E4%B8%BA%E6%98%9F%E5%8F%B7/"/>
+    <id>http://yoursite.com/2019/03/27/intellij-%E5%85%B3%E9%97%AD%E8%87%AA%E5%8A%A8%E4%BF%9D%E5%AD%98%E5%92%8C%E6%A0%87%E5%BF%97%E4%BF%AE%E6%94%B9%E6%96%87%E4%BB%B6%E4%B8%BA%E6%98%9F%E5%8F%B7/</id>
     <published>2019-03-27T04:15:52.000Z</published>
     <updated>2020-07-09T12:13:53.773Z</updated>
     
@@ -333,19 +333,19 @@
     </summary>
     
     
-      <category term="IDE" scheme="http://javayuan.xyz/categories/IDE/"/>
+      <category term="IDE" scheme="http://yoursite.com/categories/IDE/"/>
     
     
-      <category term="IDEA" scheme="http://javayuan.xyz/tags/IDEA/"/>
+      <category term="IDEA" scheme="http://yoursite.com/tags/IDEA/"/>
     
-      <category term="SAVE" scheme="http://javayuan.xyz/tags/SAVE/"/>
+      <category term="SAVE" scheme="http://yoursite.com/tags/SAVE/"/>
     
   </entry>
   
   <entry>
     <title>CENTOS 修改静态IP</title>
-    <link href="http://javayuan.xyz/2019/01/15/CENTOS-%E4%BF%AE%E6%94%B9%E9%9D%99%E6%80%81IP/"/>
-    <id>http://javayuan.xyz/2019/01/15/CENTOS-%E4%BF%AE%E6%94%B9%E9%9D%99%E6%80%81IP/</id>
+    <link href="http://yoursite.com/2019/01/15/CENTOS-%E4%BF%AE%E6%94%B9%E9%9D%99%E6%80%81IP/"/>
+    <id>http://yoursite.com/2019/01/15/CENTOS-%E4%BF%AE%E6%94%B9%E9%9D%99%E6%80%81IP/</id>
     <published>2019-01-15T07:27:22.000Z</published>
     <updated>2020-07-08T08:12:45.517Z</updated>
     
@@ -363,19 +363,19 @@
     </summary>
     
     
-      <category term="Linux" scheme="http://javayuan.xyz/categories/Linux/"/>
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
     
     
-      <category term="IP" scheme="http://javayuan.xyz/tags/IP/"/>
+      <category term="IP" scheme="http://yoursite.com/tags/IP/"/>
     
-      <category term="CentOS" scheme="http://javayuan.xyz/tags/CentOS/"/>
+      <category term="CentOS" scheme="http://yoursite.com/tags/CentOS/"/>
     
   </entry>
   
   <entry>
     <title>CentOS利用iso镜像做本地yum源</title>
-    <link href="http://javayuan.xyz/2019/01/07/CentOS%E5%88%A9%E7%94%A8iso%E9%95%9C%E5%83%8F%E5%81%9A%E6%9C%AC%E5%9C%B0yum%E6%BA%90/"/>
-    <id>http://javayuan.xyz/2019/01/07/CentOS%E5%88%A9%E7%94%A8iso%E9%95%9C%E5%83%8F%E5%81%9A%E6%9C%AC%E5%9C%B0yum%E6%BA%90/</id>
+    <link href="http://yoursite.com/2019/01/07/CentOS%E5%88%A9%E7%94%A8iso%E9%95%9C%E5%83%8F%E5%81%9A%E6%9C%AC%E5%9C%B0yum%E6%BA%90/"/>
+    <id>http://yoursite.com/2019/01/07/CentOS%E5%88%A9%E7%94%A8iso%E9%95%9C%E5%83%8F%E5%81%9A%E6%9C%AC%E5%9C%B0yum%E6%BA%90/</id>
     <published>2019-01-07T03:57:27.000Z</published>
     <updated>2020-07-08T08:12:45.518Z</updated>
     
@@ -392,23 +392,23 @@
     </summary>
     
     
-      <category term="Linux" scheme="http://javayuan.xyz/categories/Linux/"/>
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
     
     
-      <category term="CentOS" scheme="http://javayuan.xyz/tags/CentOS/"/>
+      <category term="CentOS" scheme="http://yoursite.com/tags/CentOS/"/>
     
-      <category term="YUM" scheme="http://javayuan.xyz/tags/YUM/"/>
+      <category term="YUM" scheme="http://yoursite.com/tags/YUM/"/>
     
-      <category term="Install" scheme="http://javayuan.xyz/tags/Install/"/>
+      <category term="Install" scheme="http://yoursite.com/tags/Install/"/>
     
-      <category term="ISO" scheme="http://javayuan.xyz/tags/ISO/"/>
+      <category term="ISO" scheme="http://yoursite.com/tags/ISO/"/>
     
   </entry>
   
   <entry>
     <title>centos7 teamviewer安装（依赖安装）</title>
-    <link href="http://javayuan.xyz/2019/01/07/centos7-teamviewer%E5%AE%89%E8%A3%85%EF%BC%88%E4%BE%9D%E8%B5%96%E5%AE%89%E8%A3%85%EF%BC%89/"/>
-    <id>http://javayuan.xyz/2019/01/07/centos7-teamviewer%E5%AE%89%E8%A3%85%EF%BC%88%E4%BE%9D%E8%B5%96%E5%AE%89%E8%A3%85%EF%BC%89/</id>
+    <link href="http://yoursite.com/2019/01/07/centos7-teamviewer%E5%AE%89%E8%A3%85%EF%BC%88%E4%BE%9D%E8%B5%96%E5%AE%89%E8%A3%85%EF%BC%89/"/>
+    <id>http://yoursite.com/2019/01/07/centos7-teamviewer%E5%AE%89%E8%A3%85%EF%BC%88%E4%BE%9D%E8%B5%96%E5%AE%89%E8%A3%85%EF%BC%89/</id>
     <published>2019-01-07T02:26:42.000Z</published>
     <updated>2020-07-08T08:12:45.523Z</updated>
     
@@ -425,21 +425,21 @@
     </summary>
     
     
-      <category term="Linux" scheme="http://javayuan.xyz/categories/Linux/"/>
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
     
     
-      <category term="CentOS" scheme="http://javayuan.xyz/tags/CentOS/"/>
+      <category term="CentOS" scheme="http://yoursite.com/tags/CentOS/"/>
     
-      <category term="Install" scheme="http://javayuan.xyz/tags/Install/"/>
+      <category term="Install" scheme="http://yoursite.com/tags/Install/"/>
     
-      <category term="Teamviewer" scheme="http://javayuan.xyz/tags/Teamviewer/"/>
+      <category term="Teamviewer" scheme="http://yoursite.com/tags/Teamviewer/"/>
     
   </entry>
   
   <entry>
     <title>Hexo Client使用测试</title>
-    <link href="http://javayuan.xyz/2019/01/03/Hexo-Client%E4%BD%BF%E7%94%A8%E6%B5%8B%E8%AF%95/"/>
-    <id>http://javayuan.xyz/2019/01/03/Hexo-Client%E4%BD%BF%E7%94%A8%E6%B5%8B%E8%AF%95/</id>
+    <link href="http://yoursite.com/2019/01/03/Hexo-Client%E4%BD%BF%E7%94%A8%E6%B5%8B%E8%AF%95/"/>
+    <id>http://yoursite.com/2019/01/03/Hexo-Client%E4%BD%BF%E7%94%A8%E6%B5%8B%E8%AF%95/</id>
     <published>2019-01-03T03:18:17.000Z</published>
     <updated>2020-07-08T08:12:45.518Z</updated>
     
@@ -456,21 +456,21 @@
     </summary>
     
     
-      <category term="Other" scheme="http://javayuan.xyz/categories/Other/"/>
+      <category term="Other" scheme="http://yoursite.com/categories/Other/"/>
     
     
-      <category term="Hexo" scheme="http://javayuan.xyz/tags/Hexo/"/>
+      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
     
-      <category term="Client" scheme="http://javayuan.xyz/tags/Client/"/>
+      <category term="Client" scheme="http://yoursite.com/tags/Client/"/>
     
-      <category term="Test" scheme="http://javayuan.xyz/tags/Test/"/>
+      <category term="Test" scheme="http://yoursite.com/tags/Test/"/>
     
   </entry>
   
   <entry>
     <title>Linux toch screen autoset</title>
-    <link href="http://javayuan.xyz/2018/12/29/Linux%20tochscreen%20autoset/"/>
-    <id>http://javayuan.xyz/2018/12/29/Linux%20tochscreen%20autoset/</id>
+    <link href="http://yoursite.com/2018/12/29/Linux%20tochscreen%20autoset/"/>
+    <id>http://yoursite.com/2018/12/29/Linux%20tochscreen%20autoset/</id>
     <published>2018-12-29T05:51:56.000Z</published>
     <updated>2020-07-08T08:12:45.520Z</updated>
     
@@ -488,21 +488,21 @@
     </summary>
     
     
-      <category term="Linux" scheme="http://javayuan.xyz/categories/Linux/"/>
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
     
     
-      <category term="Linux" scheme="http://javayuan.xyz/tags/Linux/"/>
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
     
-      <category term="Screen" scheme="http://javayuan.xyz/tags/Screen/"/>
+      <category term="Screen" scheme="http://yoursite.com/tags/Screen/"/>
     
-      <category term="Touch" scheme="http://javayuan.xyz/tags/Touch/"/>
+      <category term="Touch" scheme="http://yoursite.com/tags/Touch/"/>
     
   </entry>
   
   <entry>
     <title>ubuntu16.04安装ffmpeg</title>
-    <link href="http://javayuan.xyz/2018/10/27/ubuntu16.04%E5%AE%89%E8%A3%85ffmeg/"/>
-    <id>http://javayuan.xyz/2018/10/27/ubuntu16.04%E5%AE%89%E8%A3%85ffmeg/</id>
+    <link href="http://yoursite.com/2018/10/27/ubuntu16.04%E5%AE%89%E8%A3%85ffmeg/"/>
+    <id>http://yoursite.com/2018/10/27/ubuntu16.04%E5%AE%89%E8%A3%85ffmeg/</id>
     <published>2018-10-27T01:00:45.000Z</published>
     <updated>2020-07-08T08:12:45.525Z</updated>
     
@@ -519,21 +519,21 @@
     </summary>
     
     
-      <category term="Linux" scheme="http://javayuan.xyz/categories/Linux/"/>
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
     
     
-      <category term="Ubuntu" scheme="http://javayuan.xyz/tags/Ubuntu/"/>
+      <category term="Ubuntu" scheme="http://yoursite.com/tags/Ubuntu/"/>
     
-      <category term="Linux" scheme="http://javayuan.xyz/tags/Linux/"/>
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
     
-      <category term="ffmpeg" scheme="http://javayuan.xyz/tags/ffmpeg/"/>
+      <category term="ffmpeg" scheme="http://yoursite.com/tags/ffmpeg/"/>
     
   </entry>
   
   <entry>
     <title>定制ubuntu系统安装镜像</title>
-    <link href="http://javayuan.xyz/2018/10/12/%E5%AE%9A%E5%88%B6ubuntu%E5%AE%89%E8%A3%85%E9%95%9C%E5%83%8F/"/>
-    <id>http://javayuan.xyz/2018/10/12/%E5%AE%9A%E5%88%B6ubuntu%E5%AE%89%E8%A3%85%E9%95%9C%E5%83%8F/</id>
+    <link href="http://yoursite.com/2018/10/12/%E5%AE%9A%E5%88%B6ubuntu%E5%AE%89%E8%A3%85%E9%95%9C%E5%83%8F/"/>
+    <id>http://yoursite.com/2018/10/12/%E5%AE%9A%E5%88%B6ubuntu%E5%AE%89%E8%A3%85%E9%95%9C%E5%83%8F/</id>
     <published>2018-10-12T09:49:44.000Z</published>
     <updated>2020-07-08T08:12:45.526Z</updated>
     
@@ -552,19 +552,19 @@
     </summary>
     
     
-      <category term="Linux" scheme="http://javayuan.xyz/categories/Linux/"/>
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
     
     
-      <category term="Ubuntu" scheme="http://javayuan.xyz/tags/Ubuntu/"/>
+      <category term="Ubuntu" scheme="http://yoursite.com/tags/Ubuntu/"/>
     
-      <category term="Linux" scheme="http://javayuan.xyz/tags/Linux/"/>
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
     
   </entry>
   
   <entry>
     <title>ubuntu 静态ip配置</title>
-    <link href="http://javayuan.xyz/2018/10/12/ubuntu-%E9%9D%99%E6%80%81ip%E9%85%8D%E7%BD%AE/"/>
-    <id>http://javayuan.xyz/2018/10/12/ubuntu-%E9%9D%99%E6%80%81ip%E9%85%8D%E7%BD%AE/</id>
+    <link href="http://yoursite.com/2018/10/12/ubuntu-%E9%9D%99%E6%80%81ip%E9%85%8D%E7%BD%AE/"/>
+    <id>http://yoursite.com/2018/10/12/ubuntu-%E9%9D%99%E6%80%81ip%E9%85%8D%E7%BD%AE/</id>
     <published>2018-10-12T04:33:21.000Z</published>
     <updated>2020-07-08T08:12:45.525Z</updated>
     
@@ -581,19 +581,19 @@
     </summary>
     
     
-      <category term="Linux" scheme="http://javayuan.xyz/categories/Linux/"/>
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
     
     
-      <category term="Ubuntu" scheme="http://javayuan.xyz/tags/Ubuntu/"/>
+      <category term="Ubuntu" scheme="http://yoursite.com/tags/Ubuntu/"/>
     
-      <category term="IP" scheme="http://javayuan.xyz/tags/IP/"/>
+      <category term="IP" scheme="http://yoursite.com/tags/IP/"/>
     
   </entry>
   
   <entry>
     <title>Android SDK Manager 更新代理配置</title>
-    <link href="http://javayuan.xyz/2018/07/26/Android-SDK-Manager-%E6%9B%B4%E6%96%B0%E4%BB%A3%E7%90%86%E9%85%8D%E7%BD%AE/"/>
-    <id>http://javayuan.xyz/2018/07/26/Android-SDK-Manager-%E6%9B%B4%E6%96%B0%E4%BB%A3%E7%90%86%E9%85%8D%E7%BD%AE/</id>
+    <link href="http://yoursite.com/2018/07/26/Android-SDK-Manager-%E6%9B%B4%E6%96%B0%E4%BB%A3%E7%90%86%E9%85%8D%E7%BD%AE/"/>
+    <id>http://yoursite.com/2018/07/26/Android-SDK-Manager-%E6%9B%B4%E6%96%B0%E4%BB%A3%E7%90%86%E9%85%8D%E7%BD%AE/</id>
     <published>2018-07-26T06:34:14.000Z</published>
     <updated>2020-07-08T08:12:45.517Z</updated>
     
@@ -613,12 +613,12 @@
     </summary>
     
     
-      <category term="Android" scheme="http://javayuan.xyz/categories/Android/"/>
+      <category term="Android" scheme="http://yoursite.com/categories/Android/"/>
     
     
-      <category term="Android" scheme="http://javayuan.xyz/tags/Android/"/>
+      <category term="Android" scheme="http://yoursite.com/tags/Android/"/>
     
-      <category term="SDK" scheme="http://javayuan.xyz/tags/SDK/"/>
+      <category term="SDK" scheme="http://yoursite.com/tags/SDK/"/>
     
   </entry>
   
