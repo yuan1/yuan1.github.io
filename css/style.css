@@ -3,10 +3,10 @@ html {
   background-color: #fff;
   -webkit-font-smoothing: antialiased;
 }
-html[id='theme-dark-mode'] {
+html[id='theme-mode-dark'] {
   filter: invert(1) hue-rotate(180deg);
 }
-html[id='theme-dark-mode'] img {
+html[id='theme-mode-dark'] img {
   filter: invert(1) hue-rotate(180deg);
 }
 body {
@@ -15,7 +15,7 @@ body {
   font-size: 15px;
   width: 100%;
   margin: 0 auto 30px auto;
-  background-color: #fff;
+  background-color: #fff;;
 }
 
 p {
@@ -113,11 +113,18 @@ a:hover, a:active {
 }
 
 /*animation ends*/
-.content {
-  height: auto;
-  float: right;
+.main{
   width: 70%;
+  height: 100%;
+  float: right;
+  position: relative;
+  overflow: hidden;
+}
+.content {
+  height: calc(100% - 60px);
+  width: 100%;
   margin-top: 60px;
+  overflow-y: auto;
 }
 
 .page-top {
@@ -336,7 +343,6 @@ a:hover, a:active {
 .post .post-footer .tags a:hover {
   text-decoration: none;
 }
-
 .pagination {
   margin: 30px;
   padding: 0px 0 56px 0;
@@ -532,11 +538,6 @@ a:hover, a:active {
   max-width: 100px;
   padding-left: 40px;
   float: left;
-}
-
-/* 默认评论样式 */
-#fb_comments_container {
-  margin: 30px;
 }
 
 /* 按钮样式 */

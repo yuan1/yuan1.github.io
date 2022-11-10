@@ -17,14 +17,19 @@ function join_favorite(siteUrl, siteName){
 	}
 }
 function darkLightToggle() {
-    if (document.getElementById("theme-light-mode") != null) {
-        document.getElementById("theme-light-mode").id="theme-dark-mode";
-        return;
+	var mode = localStorage.getItem("theme-mode")|| "light";
+	var doc = document.getElementById("theme-mode-"+mode);
+	var target = mode==="light"?"dark":"light";
+    if (doc!=null) {
+        doc.id="theme-mode-"+target;
+		localStorage.setItem("theme-mode",target);
     }
-    if (document.getElementById("theme-dark-mode") != null) {
-        document.getElementById("theme-dark-mode").id="theme-light-mode";
-        return;
-    }
+}
+function darkModeLoad(){
+	var mode = localStorage.getItem("theme-mode")|| "light";
+	if(mode ==="dark"){
+		document.getElementById("theme-mode-light").id="theme-mode-dark";
+	}
 }
 function yiyanLoad() {
 	var xhr = new XMLHttpRequest();
@@ -40,6 +45,10 @@ function yiyanLoad() {
 }
 
 (function() {
+	var themeMode = document.getElementById("theme-mode-light");
+	if(themeMode){
+		darkModeLoad();
+	}
 	var yiyan = document.getElementById('yiyan');
 	if(yiyan){
 		yiyanLoad();
