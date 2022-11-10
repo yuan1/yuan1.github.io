@@ -1,0 +1,52 @@
+<!DOCTYPE html><html lang="zh-CN" id="theme-mode-light"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta name="author" content="李明元"><title>duplicati-好用的NAS增量备份工具 · 大明哥的博客</title><meta name="description" content="前言安装unraid系统后，非常怀念群晖下的cloud sync，之前一直在群晖下把数据加密同步到百度云上，垃圾云同步网速慢也不要紧反正扔哪就不管了。换了unraid之后一直害怕硬盘坏掉找不回数据，想过冷备份但是苦于没有闲置硬盘，最后找到了duplicati，可以支持谷歌云盘，OneDrive，各种"><meta name="keywords" content="大明哥,李明元的博客,李明元,博客,blog,Hexo,HTML,CSS,android,Linux"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="renderer" content="webkit"><link rel="short icon" href="/images/favicon.ico" type="image/x-icon"><link rel="stylesheet" href="/css/style.css"><link rel="stylesheet" href="/css/basic.css"><link rel="stylesheet" href="/css/font-awesome.min.css"><meta name="generator" content="Hexo 5.4.2"></head><body><div class="sidebar animated fadeInDown"><div class="logo-title"><div class="title"><img src="https://avatars.githubusercontent.com/u/17492753?v=4" style="width:127px;border-radius:50%"><h3 title=""><a href="/">大明哥的博客</a></h3><div class="description"><p id="yiyan">...</p></div></div></div><ul class="social-links"><li><a target="_blank" rel="noopener" href="http://weibo.com/https://weibo.com/u/5229973867"><i class="fa fa-weibo"></i></a></li><li><a target="_blank" rel="noopener" href="http://github.com/https://github.com/yuan1"><i class="fa fa-github"></i></a></li></ul><div class="footer"><a target="_blank" href="/"><span>Theme by </span></a><a target="_blank" rel="noopener" href="https://www.caicai.me"> CaiCai </a><span>&</span><a target="_blank" rel="noopener" href="https://github.com/Ben02/hexo-theme-Anatole"> Ben</a><div class="by_farbox"><a href="https://hexo.io/zh-cn/" target="_blank">Proudly published with Hexo&#65281;</a></div><div class="by_farbox"><span id="busuanzi_container_site_pv">总访问量<span id="busuanzi_value_site_pv"> </span><span>次</span></span></div></div></div><div class="main"><div class="page-top animated fadeInDown"><div class="nav"><li><a href="/">首页</a></li><li><a href="/archives">归档</a></li><li><a href="/about">关于</a></li></div><div class="information"><div class="nav_right_btn"><li><a class="fa fa-chevron-left" onclick="window.history.go(-1)"></a></li><li><a class="fa fa-sun-o" onclick="darkLightToggle()"> </a></li></div><div class="avatar"><img src="/images/favicon.png"></div></div></div><div class="content"><div class="post-page"><div class="post animated fadeInDown"><div class="post-title"><h3><a>duplicati-好用的NAS增量备份工具</a></h3></div><div class="post-content"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>安装unraid系统后，非常怀念群晖下的cloud sync，之前一直在群晖下把数据加密同步到百度云上，垃圾云同步网速慢也不要紧反正扔哪就不管了。换了unraid之后一直害怕硬盘坏掉找不回数据，想过冷备份但是苦于没有闲置硬盘，最后找到了duplicati，可以支持谷歌云盘，OneDrive，各种oss，甚至FTP等等。就是没支持垃圾云，正好不想用它，最后花了四十块拼了OneDrive家庭车，1T独立云盘空间还附赠Office订阅，真香。而且duplicati也是支持加密备份的，定时任务自动增量备份，推荐给大家使用。</p>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><h4 id="1-应用下载"><a href="#1-应用下载" class="headerlink" title="1. 应用下载"></a>1. 应用下载</h4><p>首先需要登录unraid系统，然后在应用中搜索duplicati，选择linuxserve作者提供的版本。</p>
+<img width="540" alt="606fc4b762f759055 png_e1080" src="https://user-images.githubusercontent.com/17492753/201017405-0ba9b6f0-0b5f-403f-b095-5589c8da58ff.png">
+
+
+<h4 id="2-应用配置"><a href="#2-应用配置" class="headerlink" title="2. 应用配置"></a>2. 应用配置</h4><p>点击安装后，进行相关配置。</p>
+<img width="540" alt="606fc4b9ad4f26707 png_e1080" src="https://user-images.githubusercontent.com/17492753/201017464-0730bb09-7618-4ba3-9e66-ed0c355e1ae6.png">
+
+
+<pre><code>1) Host Port 1: 配置为需要映射到的当前unraid主机端口，用于我们以后访问。
+2) Host Path 2: 配置临时目录映射，此临时目录主要存储duplicati在备份加密过程中，生成的临时文件。
+3) Key 1, Key 2: 分别为用户组信息可不用配置，默认即可（如读写文件夹没有权限，需要配置此处）
+4) 默认安装会有 /backups 和/source 路径映射到主机的配置，如果需要做本地硬盘之间数据备份，可以不删除进行映射。我这里直接删除掉换成了我需要备份的文件夹。（添加路径映射只需要添加最后的 + 添加另一个路径、端口、变量、标签和设备按钮，然后选择路径即可）
+5) 我这里是需要备份3个文件夹分别为主机的/mnt/user/photo 的图片文件夹、/mnt/user/appdata 的应用数据、 /mnt/user/cloud 的云盘数据。如果要备份更多文件夹或者自定义，可以自行添加。
+</code></pre>
+<h4 id="3-应用启动"><a href="#3-应用启动" class="headerlink" title="3. 应用启动"></a>3. 应用启动</h4><p>点击应用，等待启动后，浏览器中数据主机地址+映射端口进入duplicati首页。</p>
+<img width="540" alt="606fc4ba7b7f83709 png_e1080" src="https://user-images.githubusercontent.com/17492753/201017502-d8d5a624-fada-4077-b04e-c7c7b0771a33.png">
+
+<p>我这里地址为192.168.2.3:8805。</p>
+<img width="540" alt="606fc4ba772635138 png_e1080" src="https://user-images.githubusercontent.com/17492753/201017523-af934873-1e71-4f1a-975f-c140e5c72ab2.png">
+
+<p>我这里已经配置好了三个文件夹的同步，首页也很直观的显示当前同步的状态，每个文件夹包含了几个版本，以及下次计划时间。</p>
+<p><img src="https://user-images.githubusercontent.com/17492753/201017600-b0f71dd8-c371-4784-adde-ff1a996ba611.png" alt="606fc4ba719491918 png_e1080"></p>
+<p>点击查看日志按钮可以查看每次同步的详细信息。</p>
+<p><img src="https://user-images.githubusercontent.com/17492753/201017625-154c8805-034f-4f1a-b7d2-ef21e20b0529.png" alt="606fc4ba7ea1c8015 png_e1080"></p>
+<h4 id="4-新增备份"><a href="#4-新增备份" class="headerlink" title="4. 新增备份"></a>4. 新增备份</h4><p>第一步，配置常规信息。可以选择三种加密方式，我这里默认安装AES256进行加密，并随机生成一组密码，注意密码一定要记好存储。</p>
+<p><img src="https://user-images.githubusercontent.com/17492753/201017648-d58dc7fc-c94a-42b8-93fe-2bba5858438d.png" alt="606fc4ba7fa115641 png_e1080"></p>
+<p>第二步，配置备份保存位置。我这里选择OneDrive进行备份，备份路径可直接输入，后续点击测试链接时会提示你创建路径。点击授权ID会弹出OneDrive的登录窗口，登录后同意授权即可。<br><img src="https://user-images.githubusercontent.com/17492753/201017662-22d38568-7500-496f-a188-2c14904421d1.png" alt="606fc4bc375911481 png_e1080"></p>
+<p>第三步，源数据配置。点击计算机-&gt;找到你映射到容器的文件夹我这里时/source/photo，也可以在下方设置过滤条件和排除内容，我这里直接默认。</p>
+<p><img src="https://user-images.githubusercontent.com/17492753/201017681-d798fc26-8975-434c-8ecc-8d4a08eb9520.png" alt="606fc4bc87b443051 png_e1080"></p>
+<p>第四步，计划配置。根据自己需求配置计划运行时间，我这里时配置了每三天，凌晨三点运行。<br><img src="https://user-images.githubusercontent.com/17492753/201017693-99f45ff6-e2a6-49e1-ba76-b5cfc55b6e31.png" alt="606fc4bcab671827 png_e1080"></p>
+<p>第五步，选项。此处可配置每个压缩加密后的备份文件，以及备份保留策略。我这里备份策略选择永久保留，后续恢复文件时，就可以选择所有版本。而且时增量备份，不用担心每次都要同步完整数据。</p>
+<p><img src="https://user-images.githubusercontent.com/17492753/201017712-0ff2a74b-c68a-4b33-994e-22fe2acaee15.png" alt="606fc4bd114fb6867 png_e1080"></p>
+<p>点击保存后即可创建任务成功，可以在首页上点击立即运行，进行手动触发任务。<br>顶部状态栏可以显示备份状态剩余文件，以及上传速度等。</p>
+<h4 id="5-恢复文件"><a href="#5-恢复文件" class="headerlink" title="5. 恢复文件"></a>5. 恢复文件</h4><p>恢复备份文件可以选择多种方式，如果系统运行正常可以通过远程的备份文件夹进行选择不同版本的文件恢复。极端情况下系统崩掉或者硬盘损坏，可以另外主机启动duplicati进行通过备份文件恢复，当然，你需要将要恢复的文件夹映射到docker容器内或者备份位置中直接连接你的OneDrive，而且需要提供你备份时的密码。</p>
+<p><img src="https://user-images.githubusercontent.com/17492753/201017732-2ffb4e2e-546d-4fcd-ae43-b20d460ad0c9.png" alt="606fc4bd14a8e1524 png_e1080"></p>
+<p><img src="https://user-images.githubusercontent.com/17492753/201017746-c2c9218a-c408-48fc-8852-7995fde9d336.png" alt="606fc4be6162c1625 png_e1080"></p>
+<p><img src="https://user-images.githubusercontent.com/17492753/201017767-2a698821-6106-441d-a35a-3019249aa1fb.png" alt="606fc4be56cb19371 png_e1080"></p>
+<h4 id="6-设置"><a href="#6-设置" class="headerlink" title="6. 设置"></a>6. 设置</h4><p>设置里主要介绍一下 访问控制，也就是登录到系统的密码，这里建议最好设置一个。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>ok </p>
+<p>如在使用中有其他问题，可留言咨询。</p>
+</div><div class="post-footer"><div class="meta"><div class="info"><i class="fa fa-sun-o"></i><span class="date">2022-11-10</span><i class="fa fa-comment-o"></i><a href="/posts/4f8061db.html#comments">评论</a><i class="fa fa-tag"></i><a class="tag" href="/tags/NAS/" title="NAS">NAS </a></div></div></div></div><div class="share"><div class="evernote"><a class="fa fa-bookmark" href="javascript:;" onclick="javascript:join_favorite()"></a></div><div class="weibo"><a class="fa fa-weibo" href="javascript:void((function(s,d,e){try{}catch(e){}var f='http://service.weibo.com/share/share.php?',u=d.location.href,p=['url=',e(u),'&amp;title=',e(d.title),'&amp;appkey=2924220432'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));"></a></div></div><div class="pagination"><ul class="clearfix"><li class="next pagbuttons"><a class="btn" role="navigation" href="/posts/83ca9f7a.html" title="manjaro安装全局菜单">下一篇</a></li></ul></div><a id="comments"></a><div id="gitalk_container" style="margin:0 30px;"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"><script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script><script>var gitalk = new Gitalk({
+    title: "duplicati-好用的NAS增量备份工具",
+    clientID: "cb160053da3741b7f5ff",
+    clientSecret: "a88a60c126a9c12e1163d5b4d8d1c4622a60ea0f",
+    repo: "yuan1.github.io",
+    owner: "yuan1",
+    admin: ["yuan1"],
+    id: location.pathname.slice(0, 50),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+})
+gitalk.render("gitalk_container")</script></div></div></div><script src="/js/jquery.js"></script><script src="/js/jquery-migrate-1.2.1.min.js"></script><script src="/js/jquery.appear.js"></script><script src="/js/script.js"></script><script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script></body></html>
